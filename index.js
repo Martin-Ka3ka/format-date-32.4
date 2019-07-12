@@ -19,7 +19,9 @@ const formatDate = (timeInSeconds) => {
         time += Math.floor(sec) + 's';
     }
 
-    return time;
+    if (!time.length)
+        time = '0s';
+    return time.trim();
 }
 
 module.exports = formatDate;
