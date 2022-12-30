@@ -11,7 +11,7 @@
   "author": "Martin_Ka3ka",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^6.1.4"
+    "mocha": "^10.2.0"
   },
   "dependencies": {
     "onchange": "^6.0.0"
